@@ -1,7 +1,7 @@
 baseURL = "https://www.example.com"
 languageCode = "en-us"
 title = "My Digital Garden"
-copyright = "Nigalya Ponya ©"
+copyright = "atzuris ©"
 
 [module]
   [module.hugoVersion]
@@ -10,9 +10,9 @@ copyright = "Nigalya Ponya ©"
 
 
 [params]
-  name = "Nigalya Ponya"
-  description = "Red panda living in the eastern Himalayas."
-  initials = "NP"
+  name = "atzuris"
+  description = "Personal blog with random stuff I feel like posting."
+  initials = "AZ"
   googleAnalytics = ""
 
   [[params.social]]
