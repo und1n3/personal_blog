@@ -141,11 +141,11 @@ code {
 
 .navbar {
   background: var(--white) !important;
-  color: var(--dark);
+  color:darkgreen;
   font-family: var(--title);
 }
 .navbar-nav .nav-item .nav-link {
-    color: var(--grey);
+    color: darkgreen;;
     font-weight: 300;
     transition: color 1s;
     display: block;
@@ -175,15 +175,30 @@ code {
 
 
 /********************* Home *********************/
+.main-name{
+  font-weight: bolder;
+  font-family: var(--title);
+  font-size: 30px;
+  color:green;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+
+.main-bio{
+  font-weight: 200;
+  font-family: var(--summary);
+  font-size: 18px;
+  color:green;
+  line-height: 1.5;
+  margin-top: 0;
+}
 
 .name {
   font-family: var(--title);
   font-weight: 800;
-  font-size: calc(1.625rem + 2.5vw);
+  font-size: 40px;
 }
-.fs-1{
-  font-size: calc(1rem + 1vw)!important;
-}
+
 
 .bio {
   max-width: 750px;
