@@ -11,8 +11,8 @@ copyright = "atzuris ©"
 
 [params]
   name = "atzuris"
-  description = "Personal blog with random stuff I feel like posting."
-  initials = "AZ"
+  description = "Personal blog with random stuff and project I feel like posting."
+  initials = "atz"
   googleAnalytics = ""
 
   [[params.social]]
@@ -24,11 +24,6 @@ copyright = "atzuris ©"
     name = "Github"
     link = "#"
     icon = "fab fa-github"
-
-  [[params.social]]
-    name = "Medium" 
-    link = "#"
-    icon = "fab fa-medium-m"
 
   [[params.social]]
     name = "LinkedIn"
