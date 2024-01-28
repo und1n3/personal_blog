@@ -1,12 +1,12 @@
-baseURL = "https://www.example.com"
+baseURL = "https://und1n3.github.io/personal_blog"
 languageCode = "en-us"
 title = "My Digital Garden"
 copyright = "atzuris ©"
 
 [module]
   [module.hugoVersion]
-    min = "0.81.0"
-    max = "0.84.2"
+    min = "0.120.4"
+    max = "0.121.0"
 
 
 [params]
