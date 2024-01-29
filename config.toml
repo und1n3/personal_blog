@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "My Digital Garden"
 copyright = "atzuris ©"
 relativeURLs = true
+
 [module]
   [module.hugoVersion]
     min = "0.120.4"
