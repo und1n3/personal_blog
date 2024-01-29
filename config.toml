@@ -1,8 +1,8 @@
-baseURL = "https://und1n3.github.io"
+baseURL = "https://und1n3.github.io/personal_blog/"
 languageCode = "en-us"
 title = "My Digital Garden"
 copyright = "atzuris ©"
-
+relativeURLs = true
 [module]
   [module.hugoVersion]
     min = "0.120.4"
