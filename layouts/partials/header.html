@@ -14,8 +14,9 @@
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             {{- $currentPage := . -}}
             {{ range .Site.Menus.main -}}
+            {{ $partialURL := .URL | strings.TrimPrefix "/personal_blog" }}
                 <li class='nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
-                    <a class="nav-link" href="{{ .Permalink }}"> {{ .Name }}</a>
+                    <a class="nav-link" href="{{$partialURL}}"> {{ .Name }}</a>
                 </li>
             {{ end }} 
             <li class="nav-item px-2 pt-1">
