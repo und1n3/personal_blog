@@ -3,7 +3,7 @@ title: "Getting started in character design in blender"
 date: 2024-03-23
 lastmod: 2024-03-23
 draft: false
-garden_tags: ["character design", "blender","3d"]
+garden_tags: ["character design","blender","3d"]
 summary: " "
 status: "seeding"
 ---
