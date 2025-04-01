@@ -4,6 +4,7 @@ date: 2024-03-23
 lastmod: 2024-03-23
 draft: false
 garden_tags: ["character design","blender","3d"]
+weight: 3
 summary: " "
 status: "seeding"
 ---
