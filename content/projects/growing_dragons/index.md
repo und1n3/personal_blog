@@ -3,8 +3,8 @@ title: "Growing Dragons"
 date: 2025-04-01
 draft: false
 project_tags: ["godot", "gamedev","godotWildJam"]
-status: "evergreen"
-weight: 2
+status: "growing"
+weight: 1
 summary: "My first attempt at my own godot game."
 links:
     external_link:
@@ -31,13 +31,22 @@ bla bla bla
 
 ### Egg Types
 Will add around 10 eggs altough 6 are enough to complete the game
-| Egg name | Condition |
-|:---------|:---------|
-| **Infinity Egg** | Pausing the game fo more than 20 seconds. | 
-| **Crimson Egg**  | From mixing red ingredients/crops:  | 
-| **Hermit Egg** | Never accepting NPC's help, refusing to all  the secondary missions. |
-| **Rebel Egg** | Not reaching the king's goal of N eggs by one egg. Will appear at the end and change the final.| 
-| 
+|nº| Egg name | Condition |
+|:--|:---------|:---------|
+|1| **Infinity Egg** | Pausing the game fo more than 20 seconds. | 
+|2| **Crimson Egg**  | From mixing red ingredients/crops such as:  | 
+|3| **Hermit Egg** | Never accepting NPC's help, refusing all the secondary missions. |
+|4| **Rebel Egg** | Not reaching the king's goal of N eggs by one egg. Will appear at the end and change the final.| 
+|5| **Indigo Egg** | From mixing blue ingredients/crops such as: |
+|6|  **Eclipse Egg** | From mixing dark/magic ingredients/crops such as : |
+|7| **Venom Egg** | From mixing venomous ingredients/crops such as : | 
+|8| **Patchwork Egg** | From mixing crops or ingredients of any kind. Will be the most common egg. |
+|9| **Mottle Egg**  | From mixing just one ingredient, regardless of the kind. |
+|10| **Emerald Egg** | From mixing just green ingredients/crops such as:  |
+|11| **Oathbound Egg** | Accepting all NPC's help and completing all missions. |
+
+
+## First developing stages
 
 ## First developing stages
 
