@@ -1,11 +1,11 @@
 ---
-title: "Markdown Syntax"
-date: 2021-08-01
+title: "Growing Dragons"
+date: 2025-04-01
 draft: false
-project_tags: ["markdown"]
+project_tags: ["godot", "gamedev","godotWildJam"]
 status: "evergreen"
 weight: 2
-summary: "Example of markdown syntax you can use to edit your content"
+summary: "My first attempt at my own godot game."
 links:
     external_link:
         text: "Some external link"
@@ -19,16 +19,27 @@ links:
         weight: 2
 ---
 
-This is just an intro paragraph to show how the initial letter of each article or post will look.
-The rest of the page shows you the markdown syntax supported by this theme: headings, typography, images, blockquote, lists, code blocks and tables.
-For more markdown syntax guide, please see this [link](https://www.markdownguide.org/basic-syntax/).
+Thisproject started with the Godot Wild Jam idea and wildcards [see the link](https://www.markdownguide.org/basic-syntax/). However, as I didn't quite finish during the jam period, here I find myself, trying to finish something at least.
+
 
 --- 
 
-# Heading level 1
-## Heading level 2 {#custom-id-2}
-### Heading level 3 
-#### Heading level 4
+# Growing Dragons
+## Game Idea 
+
+bla bla bla
+
+### Egg Types
+Will add around 10 eggs altough 6 are enough to complete the game
+| Egg name | Condition |
+|:---------|:---------|
+| **Infinity Egg** | Pausing the game fo more than 20 seconds. | 
+| **Crimson Egg**  | From mixing red ingredients/crops:  | 
+| **Hermit Egg** | Never accepting NPC's help, refusing to all  the secondary missions. |
+| **Rebel Egg** | Not reaching the king's goal of N eggs by one egg. Will appear at the end and change the final.| 
+| 
+
+## First developing stages
 
 ---
 
