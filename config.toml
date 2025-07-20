@@ -12,7 +12,7 @@ relativeURLs = true
 
 [params]
   name = "atzuris"
-  description = "Personal blog with random stuff and project I feel like posting."
+  description = "Personal blog with random stuff and projects I feel like posting."
   initials = "atz"
   googleAnalytics = ""
 

@@ -1,11 +1,11 @@
 ---
-title: "Growing Dragons"
-date: 2025-04-01
+title: "Designing a booknook: Sci-Fi Corridor"
+date: 2025-07-20
 draft: false
-project_tags: ["godot", "gamedev","godotWildJam"]
-status: "growing"
-weight: 1
-summary: "My first attempt at my own godot game."
+project_tags: ["booknook","3d","3dprinting","blender","hueforge"]
+status: "seeding"
+weight: 2
+summary: "Designing a Sci-Fi inspired corridor"
 links:
     external_link:
         text: "Some external link"
@@ -19,36 +19,16 @@ links:
         weight: 2
 ---
 
-Thisproject started with the Godot Wild Jam idea and wildcards [see the link](https://www.markdownguide.org/basic-syntax/). However, as I didn't quite finish during the jam period, here I find myself, trying to finish something at least.
-
+This is just an intro paragraph to show how the initial letter of each article or post will look.
+The rest of the page shows you the markdown syntax supported by this theme: headings, typography, images, blockquote, lists, code blocks and tables.
+For more markdown syntax guide, please see this [link](https://www.markdownguide.org/basic-syntax/).
 
 --- 
 
-# Growing Dragons
-## Game Idea 
-
-bla bla bla
-
-### Egg Types
-Will add around 10 eggs altough 6 are enough to complete the game
-|nº| Egg name | Condition |
-|:--|:---------|:---------|
-|1| **Infinity Egg** | Pausing the game fo more than 20 seconds. | 
-|2| **Crimson Egg**  | From mixing red ingredients/crops such as:  | 
-|3| **Hermit Egg** | Never accepting NPC's help, refusing all the secondary missions. |
-|4| **Rebel Egg** | Not reaching the king's goal of N eggs by one egg. Will appear at the end and change the final.| 
-|5| **Indigo Egg** | From mixing blue ingredients/crops such as: |
-|6|  **Eclipse Egg** | From mixing dark/magic ingredients/crops such as : |
-|7| **Venom Egg** | From mixing venomous ingredients/crops such as : | 
-|8| **Patchwork Egg** | From mixing crops or ingredients of any kind. Will be the most common egg. |
-|9| **Mottle Egg**  | From mixing just one ingredient, regardless of the kind. |
-|10| **Emerald Egg** | From mixing just green ingredients/crops such as:  |
-|11| **Oathbound Egg** | Accepting all NPC's help and completing all missions. |
-
-
-## First developing stages
-
-## First developing stages
+# Heading level 1
+## Heading level 2 {#custom-id-2}
+### Heading level 3 
+#### Heading level 4
 
 ---
 

@@ -5,6 +5,8 @@
     <span class="status">Growing 🌿</span>
     {{ else if eq "evergreen" . }}
     <span class="status">Evergreen 🌳</span>
+    {{ else if eq "withered" . }}
+    <span class="status">Withered 🍂</span>
     {{ else }}
     {{ end }}
 {{ end }}
