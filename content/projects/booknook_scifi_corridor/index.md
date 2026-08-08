@@ -2,130 +2,76 @@
 title: "Designing a booknook: Sci-Fi Corridor"
 date: 2025-07-20
 draft: false
-project_tags: ["booknook","3d","3dprinting","blender","hueforge"]
-status: "seeding"
+project_tags: ["booknook","3d","3dprinting","blender"]
+status: "evergreen"
 weight: 2
-summary: "Designing a Sci-Fi inspired corridor"
+summary: "The shelf looked too crowded with books. Maybe a small portal to another world would help."
 links:
-    external_link:
-        text: "Some external link"
+    printables_link:
+        text: To get the files, click here"
         icon: "fas fa-external-link-alt"
-        href: "#"
+        href: "https://www.printables.com/@atzuris_2188090/models"
         weight: 1
-    another_link:
-        text: "Another github link"
-        icon: "fab alt brands fa-github"
-        href: "#"
-        weight: 2
----
 
-This is just an intro paragraph to show how the initial letter of each article or post will look.
-The rest of the page shows you the markdown syntax supported by this theme: headings, typography, images, blockquote, lists, code blocks and tables.
-For more markdown syntax guide, please see this [link](https://www.markdownguide.org/basic-syntax/).
-
---- 
-
-# Heading level 1
-## Heading level 2 {#custom-id-2}
-### Heading level 3 
-#### Heading level 4
+lastmod: 2026-08-08
 
 ---
 
-This is the first line **with bold text**.  
-This is the second line *with italic text*.  
-This is the third line  ***with bold italic text***.  
-This is the fourth line ~~with strikethrough text~~.  
-This is the fifth line [with a link to heading level 2](#custom-id-2).  
-This is the sixth line with emoji 🥳.  
+## The Design
+I was envisioning a deep corridor, an infinite effect booknook. It should be designed to fit my bookshelf, so more or less 20 cm tall and about 17 cm deep. 
 
-First Term
-: This is the definition of the first term.
+I'm familiar with 3D CAD software as I had some practice in SolidWorks at the university. However, I'm now trying to switch on open source software, and it's been quite a journey. 
 
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
+Currently relying on Blender and FreeCAD, and the learning curve for both has been quite steep! I have to admit it's been fairly easy to do some quick designing but I easily end up getting frustrated trying to reach the complete vision I have in mind.
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+>Everything is practice so I'll get there someday.
 
-[^1]: This is the first footnote.
+Again with the booknook, here are a couple of images of the final model.
 
-[^bignote]: Here's one with multiple paragraphs and code.
+{{< figure src="blender_design_front.png" title="" width="100%" >}}
 
-    Indent paragraphs to include them in the footnote.
+{{< figure src="blender_design_back.png" title="" width="100%" >}}
 
-    `{ my code }`
+I've lost the initial hand sketches, but here is how it turned out in the end.
+I also added color to the model to create a visual of how it would look once painted.
+{{< video src="blender_painted_model.mp4" controls="yes" title="" >}}
 
-    Add as many paragraphs as you like.
 
 --- 
+## The Tangible part
+I printed the parts separately to get finer results with my 3D printer, which turned out quite good on the first try.
 
-> This is a blockquote.
+{{< figure src="printed_parts.jpg" title="" width="100%" >}}
 
-> This is a blockquote
->
-> with multiple paragraphs
+I used some old PLA I had lying around that I wanted to use for prototyping. And now we are getting to the fun part: painting it with acrylics and giving it some effects with a dry brush.
 
-> This is a
->
->> nested blockquote
+{{< figure src="painting.jpg" title="" width="90%" >}}
 
-> ### This is a header level 3
->
-> - First item
-> - Second item.
->
->  *Italic* and also **bold** are supported.
+Although LEDs will shine through the slits, adding matching paint helps amplify the light effect.
 
----
+Now I needed to get the electronics. I have kept it quite simple, it's been a while since my last electronics project and I feel I need to do a refresher on the theory. Everything is slipping out of my brain.
 
-{{< figure src="jessica-weiller-GAw5wFLVWVo-unsplash.jpg" title="Just chilling on my favorite tree in San Diego Zoo" width="100%" attr="https://unsplash.com/@jweiller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">}}
+So, it came down to a couple of LEDs, resistors, and batteries to power it.
+
+{{< figure src="sodering_and_wires.jpg" title="" width="90%" >}}
+
+Apologies for the quick photos, I need a proper setup. I hope that in future projects (there will be future projects, I have to believe it) I get to improve the planning and photography.
 
 
-For more image processing methods, you can create your own shortcode. Check this [link](https://gohugo.io/content-management/image-processing/) to see what you can do.
+##The Final Result
 
---- 
+And we get to the grand finale.
+Once everything is glued and put together, to get the infinite corridor look we just need a mirror on the back and a two-way mirror. 
 
-Ordered list:
+I used a plastic mirror for the back and a plastic with a mirror film on the front to get this look easily.
 
-1. First item
-2. Second item
-3. Third item
-    1. Indented item
-    2. Indented item
-4. Fourth item
+{{< figure src="featured.jpg" title="" width="100%" >}}
 
-Unordered lists:
-- First item
-- Second item
-- Third item
-    - Indented item
-    - Indented item
-- Fourth item
 
---- 
+And finally, here's a quick video showcasing the booknook once in place.
 
-This is an `inline code block`. See below for a multi-line code block with syntax highlighting.
 
-```python
-# Python syntax highlighting
-def it_is_true():
-    return True
+{{< video src="final_result.mp4" controls="yes" title="" width="70%">}}
 
-def it_is_false():
-    return False
-```
 
-```css
-/* CSS syntax highlighting */
-html {
-    text-align: left;
-}
-```
-
----
-
-| Column 1 | Column 2 |
-|:---------|:---------|
-| Cell 1,1 | Cell 1,2 | 
-| Cell 2,1 | Cell 2,2 | 
+## Hope you have enjoyed the journey with me, and stay tuned for future projects!

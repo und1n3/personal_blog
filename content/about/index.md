@@ -1,13 +1,10 @@
 ---
-title: "Nigalya Ponya"
-date: 2015-01-01
-summary: "Himalayan red panda"
+title: "A bit about me"
+date: 2026-08-08
+
+summary: "Hi there! I'm Atzuris."
 layout: about
 ---
-
-I have a reddish-brown fur, a long, shaggy tail, and a waddling gait due to my shorter front legs; I'm roughly the size of a domestic cat, though with a longer body.
-I live in trees and feed mainly on bamboo, but I also eat eggs, birds, and insects.
-
-I joined the IUCN Endangered species red list in 2008 as a result of a constant population decline caused by habitat loss, poaching and inbreed depression.
-
-For more information, you can take a look at my [Wikipedia page](https://en.wikipedia.org/wiki/Red_panda_)
+You seem to have stumbled upon my blog. There are probably few things to see here still. But I hope it won't stay like this for long.
+Who am I? Well, born a procrastinator, trying to sort out a bit my life.
+I'm an engineer, musician, like to write and paint, and a bit of everything basically.

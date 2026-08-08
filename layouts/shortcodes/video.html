@@ -1,0 +1,35 @@
+{{ $src := .Get "src" | default (.Get 0) }}
+{{ $video := .Page.Resources.GetMatch (printf "*%s*" $src) }}
+{{ $url := "" }}
+
+{{ if $video }}
+  {{ $url = $video.RelPermalink }}
+{{ else if $src }}
+  {{ $url = $src | relURL }}
+{{ else }}
+  {{ errorf "The video shortcode requires a video filename or path." }}
+{{ end }}
+
+{{ $title := .Get "title" }}
+{{ $controls := .Get "controls" | default "true" }}
+
+{{/* Format width properly (appends 'px' if only a number is passed) */}}
+{{ $rawWidth := .Get "width" | default "100%" }}
+{{ $width := $rawWidth }}
+{{ if not (findRE `[a-zA-Z%]` (printf "%v" $rawWidth)) }}
+  {{ $width = printf "%spx" $rawWidth }}
+{{ end }}
+
+<figure style="margin: 15px auto; max-width: 100%; text-align: center;">
+  <video 
+    {{ if ne $controls "false" }}controls{{ end }} 
+    style="width: {{ $width }}; max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <source src="{{ $url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  {{ with $title }}
+    <figcaption style="margin-top: 8px;">
+      <small>{{ . }}</small>
+    </figcaption>
+  {{ end }}
+</figure>
