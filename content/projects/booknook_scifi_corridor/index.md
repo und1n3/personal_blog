@@ -71,7 +71,7 @@ I used a plastic mirror for the back and a plastic with a mirror film on the fro
 And finally, here's a quick video showcasing the booknook once in place.
 
 
-{{< video src="final_result.mp4" controls="yes" title="" width="70%">}}
+{{< video src="fixed_final_result.mp4" controls="yes" title="" width="70%">}}
 
 
 ## Hope you have enjoyed the journey with me, and stay tuned for future projects!
