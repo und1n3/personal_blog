@@ -10,7 +10,7 @@ links:
     printables_link:
         text: To get the files, click here"
         icon: "fas fa-external-link-alt"
-        href: "https://www.printables.com/@atzuris_2188090/models"
+        href: "https://www.printables.com/model/1804105-sci-fi-booknook"
         weight: 1
 
 lastmod: 2026-08-08
