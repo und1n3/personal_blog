@@ -132,20 +132,24 @@ code {
 }
 .status {
   font-weight: lighter;
-  color: green;
+  color: #E94560;
   font-size: medium;
 }
 
 
 /********************* Navbar *********************/
 
+#dark-mode-toggle {
+  color: #E94560;
+}
+
 .navbar {
   background: var(--white) !important;
-  color:darkgreen;
+  color: #E94560;
   font-family: var(--title);
 }
 .navbar-nav .nav-item .nav-link {
-    color: darkgreen;;
+    color: #E94560;
     font-weight: 300;
     transition: color 1s;
     display: block;
@@ -179,7 +183,7 @@ code {
   font-weight: bolder;
   font-family: var(--title);
   font-size: 30px;
-  color:green;
+  color:#E94560;
   box-sizing: border-box;
   line-height: 1.2;
 }
@@ -188,7 +192,7 @@ code {
   font-weight: 200;
   font-family: var(--summary);
   font-size: 18px;
-  color:green;
+  color:#E94560;
   line-height: 1.5;
   margin-top: 0;
 }

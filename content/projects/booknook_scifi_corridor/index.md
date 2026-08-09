@@ -58,7 +58,7 @@ So, it came down to a couple of LEDs, resistors, and batteries to power it.
 Apologies for the quick photos, I need a proper setup. I hope that in future projects (there will be future projects, I have to believe it) I get to improve the planning and photography.
 
 
-##The Final Result
+## The Final Result
 
 And we get to the grand finale.
 Once everything is glued and put together, to get the infinite corridor look we just need a mirror on the back and a two-way mirror. 
