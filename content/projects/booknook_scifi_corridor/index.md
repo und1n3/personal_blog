@@ -34,7 +34,7 @@ Again with the booknook, here are a couple of images of the final model.
 
 I've lost the initial hand sketches, but here is how it turned out in the end.
 I also added color to the model to create a visual of how it would look once painted.
-{{< video src="blender_painted_model.mp4" controls="yes" title="" >}}
+{{< figure src="blender_painted_model.gif" title="" >}}
 
 
 --- 
@@ -71,7 +71,7 @@ I used a plastic mirror for the back and a plastic with a mirror film on the fro
 And finally, here's a quick video showcasing the booknook once in place.
 
 
-{{< video src="fixed_final_result.mp4" controls="yes" title="" width="70%">}}
+{{< figure src="final_result.gif" title="" width="70%">}}
 
 
 ## Hope you have enjoyed the journey with me, and stay tuned for future projects!
