@@ -73,5 +73,3 @@ And finally, here's a quick video showcasing the booknook once in place.
 
 {{< figure src="final_result.gif" title="" width="70%">}}
 
-
-## Hope you have enjoyed the journey with me, and stay tuned for future projects!
