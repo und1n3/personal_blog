@@ -9,7 +9,7 @@
         {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
         {{ $img = $img.Fit "350x500" }}
         {{ with $img }}
-            <img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img">
+            <img src="{{ .Permalink }}" alt="{{ $.Title }}" class="card-img p-5">
         {{ end }}
     </div>
 </div>
@@ -22,7 +22,7 @@
                 {{ $img := (.Resources.ByType "image").GetMatch "*featured*" }}
                 {{ $img = $img.Fit "400x500" }}
                 {{ with $img }}
-                    <img src="{{ .Permalink }}" class="img-fluid rounded-start card-img-top" alt="...">
+                    <img src="{{ .Permalink }}" class="img-fluid rounded-start card-img-top p-5" alt="...">
                 {{ end }}
             </div>
             <div class="col-lg-8 col-xl-7 ms-auto">
